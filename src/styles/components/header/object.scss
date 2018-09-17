@@ -1,0 +1,23 @@
+
+.Header {
+    color: white;
+    background-color: $COLOR2;
+
+    &-menuTrigger {
+        color: white;
+    }
+
+    &-navigation {
+        background: $COLOR3;
+        color: white;
+    }
+
+    &-navLink {
+        &:active,
+        &:focus,
+        &:visited
+        {
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+
+.Article {
+    &-title {
+        font-size: em(20px);
+        font-family: 'Marcellus SC', serif;
+    }
+}
+
+@import './object'

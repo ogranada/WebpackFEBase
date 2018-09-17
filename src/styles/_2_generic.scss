@@ -1,0 +1,14 @@
+
+body {
+    background-image: $GRADIENT0;
+    background-color: $GRADIENT0_FALLBACK;
+    font-size: 14px;
+}
+
+.Content {
+    padding: 1em;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,19 @@
+
+$browser-context: 14;
+
+// IMPORTS
+
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+
+// COLORS
+
+$COLOR0: #0b2537;
+$COLOR1: #143648;
+$COLOR2: #06192B;
+$COLOR3: #12263a;
+
+
+// GRADIENTS
+$GRADIENT0_FALLBACK: #0b2537; /* Old browsers */
+$GRADIENT0: linear-gradient(to right, #0b2537 0%,#143648 100%);

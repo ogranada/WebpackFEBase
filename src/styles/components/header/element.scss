@@ -1,0 +1,61 @@
+
+.Header {
+    padding: 0.5em 16px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px black;
+    z-index: 1000;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-title,
+    &-navigationTitle {
+        display: none;
+    }
+
+    &-logoImg {
+        width: 40%;
+    }
+
+    &-menuTrigger {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    &-navigation {
+        position: absolute;
+        left: 0;
+        top: 64px;
+        width: 100%;
+        max-height: 0;
+        height: 0;
+        overflow-y: hidden;
+        box-shadow: 0 2px 3px black;
+        transition: all 0.5s ease-in-out;
+        font-family: 'Marcellus SC', serif;
+        text-align: center;
+
+        &.isOpen {
+            height: auto;
+            max-height: 100vh;
+        }
+
+    }
+
+    &-nav {
+        margin: 0;
+        padding: 0;
+    }
+
+    &-navItem {
+        font-size: 1.5em;
+        list-style: none;
+        margin: 0;
+        padding: 0.4em;
+    }
+
+}
+
+@import './object';
